@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>play quizzes</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,600,0,200" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="Images\logo.png" type="image/x-icon" />
+        <script src="index.js" async></script>
+    </head>
+    <body>
+        <div id="heading">
+            <img src="Images\logo.png" width="40" alt="logo" />
+            <h1><span>Quizzical:</span> Test Your Knowledge</h1>
+        </div>
+        <section id="startform">
+            <form id="form">
+                <fieldset>
+                    <label for="Category">Category</label>
+                    <select id="Category">
+                        <option value="18">computer science</option>
+                        <option value="9">general knowledge</option>
+                        <option value="31">japanese anime and manga</option>
+                        <option value="17">Science &amp; Nature</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <label for="Difficulty">Difficulty</label>
+                    <select id="Difficulty">
+                        <option value="easy">easy</option>
+                        <option value="medium">medium</option>
+                        <option value="hard">hard</option>
+                    </select>
+                </fieldset>
+                <button type="submit">START</button>
+            </form>
+        </section>
+
+        <section id="game">
+            <nav>
+                <button class="back-to-home">
+                    <span class="material-symbols-outlined">
+                        arrow_back
+                        </span>
+                </button>
+                <h2>quiz qutions</h2>
+            </nav>
+            <div id="allquestions">
+
+            </div>
+        </section>
+
+        <section id="result">
+            <nav>
+                <button class="back-to-home">
+                    <span class="material-symbols-outlined">
+                        arrow_back
+                        </span>
+                </button>
+                <h2>quiz result</h2>
+            </nav>
+`           <div id="piechart"></div>
+            <div id="data">
+                <p>Out of 10</p>
+                <div id="resultdata">
+                    <div class="right">
+                        20 right
+                    </div>
+                    <div class="wrong">
+                        30 wrong
+                    </div>
+                    <div class="unattempted">
+                        50 unattempted
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
