@@ -16,3 +16,5 @@ This is a dynamic quiz application built with HTML, SCSS (preprocessor for clean
 
 
 * API USED: https://opentdb.com/api.php?amount=10
+
+*hosted on:* https://quiz-app-ganesh2904.netlify.app/
